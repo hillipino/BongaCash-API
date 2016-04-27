@@ -5,7 +5,7 @@ A simple responsive php template to pull Bonga Cams's affiliate XML Feed.
 You can style this template using SASS or CSS. The html display is found in 'includes/templates.php' and 'includes/functions.php'.
 
 #Setup and Configuration
-Open includes/settings.php and add your configuration details. Be sure to change your user and aff id if you want to get credit for your sales. If you do not have an affiliate account you can get one <a href="https://bongacash.com/ref?c=226357">here</a>. The following options are configurable:
+Open includes/settings.php and add your configuration details. Be sure to change the links to match your affiliate links if you want to get credit for your sales. If you do not have an affiliate account you can get one <a href="https://bongacash.com/ref?c=226357">here</a>. The following options are configurable:
 
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	// General Configuration Settings
@@ -64,5 +64,3 @@ Open includes/settings.php and add your configuration details. Be sure to change
 		If you add or remove descriptions be sure to change the following variable:
 		$num 	= Rand (1,6); // 6 would be the total amount of descriptions added.
 		
-		#Links
-		These shouldn't have to be modified but you can double check your affiliate links to make sure the codes matchup.
