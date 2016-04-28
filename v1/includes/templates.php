@@ -55,6 +55,7 @@
 									<li><a href="' . BASEHREF . 'cams/male" class="' . ( ($link == "male") ? "active"   : "") . '">Male Cams</a></li>
 									<li><a href="' . BASEHREF . 'cams/couple" class="' . ( ($link == "couple") ? "active"   : "") . '">Couple Cams</a></li>
 									<li><a href="' . BASEHREF . 'cams/lesbian" class="' . ( ($link == "lesbian") ? "active"   : "") . '">Lesbian Cams</a></li>
+									<li><a href="' . BASEHREF . 'cams/tranny" class="' . ( ($link == "tranny") ? "active"   : "") . '">Tranny Cams</a></li>
 									<li><a href="' . LINK_BROADCAST . '" class="external">Broadcast Your Cam!</a></li>
 								</ul>
 								<ul class="actions vertical">
@@ -203,6 +204,9 @@
 				case 'gay':
 					$gender = 'Couple Male + Male';
 					break;		
+				case 'tranny':
+					$gender = 'Trans';
+					break;					
 				default:
 					$gender = '';
 

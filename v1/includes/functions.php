@@ -325,8 +325,8 @@
 					case 'Couple Male + Memale':
 						$gender = 'gay';
 						break;											
-					case 's':
-						$gender = 'shemale';
+					case 'Trans':
+						$gender = 'tranny';
 						break;
 
 					default:
@@ -383,8 +383,8 @@
 						case 'Couple Male + Memale':
 							$gender = 'gay';
 							break;											
-						case 's':
-							$gender = 'shemale';
+						case 'Trans':
+							$gender = 'Tranny';
 							break;
 
 						default:
@@ -466,82 +466,6 @@
 				}					
 
 			}	
-			
-		// Featured Cam
-		
-			function featured( $mode, $room ) {
-			
-				switch ( $mode ) {
-					
-					case signup: 	//signup mode
-					
-						switch ( $room ) {
-							
-							case personal:
-								$go = REG_YOURCAM;
-								break;
-							case top:
-								$go = REG_HOME;
-								break;								
-							case male:
-								$go = REG_HOME_MALE;
-								break;								
-							case tranny:
-								$go = REG_HOME_TRANNY;
-								break;	
-								
-						}
-						
-						break;
-						
-					case tokens: 		//tokens mode
-
-						switch ( $room ) {
-							
-							case personal:
-								$go = TOK_YOURCAM;
-								break;
-							case top:
-								$go = TOK_HOME;
-								break;								
-							case male:
-								$go = TOK_HOME;
-								break;								
-							case tranny:
-								$go = TOK_HOME;
-								break;	
-								
-						}							
-
-					default: 		// revshare mode
-
-						switch ( $room ) {
-							
-							case personal:
-								$go = REV_YOURCAM;
-								break;
-							case top:
-								$go = REV_HOME;
-								break;								
-							case male:
-								$go = REV_HOME_MALE;
-								break;								
-							case tranny:
-								$go = REV_HOME_TRANNY;
-								break;	
-								
-						}					
-						
-						break;
-
-				}			
-			
-				if ( $room == 'personal' )
-					echo '<iframe src="http://chaturbate.com/affiliates/in/' . $go . '/' . AFFID . '/?track=' . TRACK . '&amp;room=' . USER . '&amp;bgcolor=transparent" height="528" width="850" ></iframe>';
-				else
-					echo '<iframe src="http://chaturbate.com/affiliates/in/' . $go . '/' . AFFID . '/?track=' . TRACK . '&amp;bgcolor=transparent" height="528" width="850" ></iframe>';
-			
-			}
 			
 		// Human Readable Time
 
