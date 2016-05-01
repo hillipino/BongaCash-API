@@ -363,7 +363,8 @@
 
 				$arg1 	= array_key_exists('arg1', $_GET) ? $_GET['arg1'] : null;				
 				$cams 	= new SimpleXMLElement(FLATFILE, null, true);
-				
+				$online = false;
+
 				foreach( $cams as $cam ){ 
 				
 					switch ( $cam->gender) {
@@ -393,6 +394,8 @@
 
 
 					if ( $cam->username == $user ) {
+
+						$online = true;
 					
 						echo '		
 							<div class="container">
@@ -449,6 +452,23 @@
 					} 			
 	
 				}
+
+				if ( !$online ) { // Display this if user is offline
+
+					echo '
+						<div class="container">
+							<header>
+								<h2>' . $arg1 . ' is Currently Offline</h2>
+								<p>So we have picked out another Hot Live Stream for you to enjoy!</p>
+							</header>
+							<section class="cb_video video-wrapper">
+								<script type="text/javascript" src="' . EMBED . '" id="BC_EC"></script>
+							</section>
+						</div>
+					</div>
+					';
+
+				}				
 				
 				if ( RELATED_SHOW ) {
 				

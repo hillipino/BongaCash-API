@@ -60,7 +60,7 @@
 								</ul>
 								<ul class="actions vertical">
 									<li><a href="' . LINK_SIGNUP . '" class="button special fit external">Free Account</a></li>
-									<li><a href="http://adultfriendfinder.com/go/g10296-ppc?page_id=685" class="button fit">Get Laid!</a></li>
+									<li><a href="http://adultfriendfinder.com/go/g10296-ppc?page_id=685" class="button fit external">Get Laid!</a></li>
 									<li><a href="' . LINK_AFF . '" class="button fit external">Affiliate Program</a></li>
 									
 								</ul>

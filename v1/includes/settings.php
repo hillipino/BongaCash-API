@@ -5,8 +5,8 @@
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 		define ( 'SITENAME',		'BongaCams API Demo' );								// Your Site Name
-		define ( 'BASEHREF',		'http://chaturbatev2.localhost.com/' );				// The Url path o the index.php
-		define ( 'BASEPATH',		'F:\wamp64\www\chaturbatev2' );						// The file directory path to index.php
+		define ( 'BASEHREF',		'http://yourdomain.com/' );							// The Url path o the index.php
+		define ( 'BASEPATH',		'/path/to/script' );								// The file directory path to index.php
 		define ( 'FLATFILE',		BASEPATH . '/includes/data/feed.xml');				// Name of file to store xml feed into
 		define ( 'USECRON',			false );											// If you would like to update via cron set this to true and add includes/cron.php to your crontab 
 		define ( 'SLIDE_DIR',		'down' );											// Which direction thumbnail overlays slide in. (up,down,left,right)
@@ -40,9 +40,8 @@
 		define ( 'XML_FILE',		'http://tools.bongacams.com/promo.php?c=226355&type=api&api_type=xml' . $category_string );
 		define ( 'LINK_SIGNUP',		'http://bongacams.com/track?c=226355' );			// Signup Link
 		define ( 'LINK_AFF',		'https://bongacash.com/ref?c=226357' );				// Your Affiliate URL
-		define ( 'LINK_BROADCAST',	'https://bongacash.com/model-ref?c=315725' );		// Broadcast your cam	
-
-		// &categories[]=female&categories[]=male&categories[]=transsexual
+		define ( 'LINK_BROADCAST',	'https://bongacash.com/model-ref?c=315725' );		// Broadcast your cam
+		define ( 'EMBED',			'http://tools.bongacams.com/promo.php?c=226355&type=embed_chat');	// Chatroom embed for offline cams
 
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Columns
