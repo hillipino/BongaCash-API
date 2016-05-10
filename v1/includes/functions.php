@@ -313,7 +313,7 @@
 					case 'Female':
 						$gender = 'female';
 						break;
-					case 'Male':
+					case 'Males':
 						$gender = 'male';
 						break;
 					case 'Couple Female + Male':
@@ -372,7 +372,7 @@
 						case 'Female':
 							$gender = 'female';
 							break;
-						case 'Male':
+						case 'Males':
 							$gender = 'male';
 							break;
 						case 'Couple Female + Male':

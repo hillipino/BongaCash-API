@@ -193,7 +193,7 @@
 					$gender = 'Female';
 					break;
 				case 'male':
-					$gender = 'Male';
+					$gender = 'Males';
 					break;
 				case 'couple':
 					$gender = 'Couple Female + Male';
